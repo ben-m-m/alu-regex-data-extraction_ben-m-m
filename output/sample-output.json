@@ -1,0 +1,29 @@
+{
+    "emails": [
+        "john.doe@alueducation.com",
+        "mary_smith@alumni.alueducation.com",
+        "test.user@si.alueducation.com",
+        "support@alueducation.com"
+    ],
+    "urls": [
+        "https://www.alueducation.com",
+        "http://example.org/login?user=test"
+    ],
+    "phone_numbers": [
+        "532 1234",
+        "678 9012",
+        "555-4444",
+        "333-1111",
+        "111 1111",
+        "111 1111",
+        "234-5678",
+        "+250 788 123 456",
+        "(202) 555-0178",
+        "+1-415-555-9988"
+    ],
+    "credit_cards": [
+        "4532 1234 5678 9012",
+        "5555-4444-3333-1111",
+        "4111 1111 1111 1111"
+    ]
+}
