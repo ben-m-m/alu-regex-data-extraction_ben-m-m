@@ -1,33 +1,139 @@
-Customer support logs - May 2026
+========================================================
+ALU DIGITAL SERVICES - API RESPONSE LOG
+Generated: 2026-05-21 14:33:08
+========================================================
 
-Please contact:
-john.doe@alueducation.com
-mary_smith@alumni.alueducation.com
-test.user@si.alueducation.com
+[INFO] User registrations received from external API.
 
-Invalid emails:
-fake@@alueducation..com
-admin@fake-alueducation.com
-<script>alert('hack')</script>@alueducation.com
+Primary Contacts:
+- john.doe@alueducation.com
+- mary_smith@alumni.alueducation.com
+- sam.irakoze@si.alueducation.com
+- support.team@alueducation.com
 
-Payments processed:
-Visa: 4532 1234 5678 9012
-Mastercard: 5555-4444-3333-1111
+Rejected Emails:
+- fake@@alueducation..com
+- hacker<script>@alueducation.com
+- admin@fake-alueducation.com
+- invalid.user@alueducation
+- DROP_TABLE@alueducation.com
 
-Suspicious entries:
-4111 1111 1111 1111 DROP TABLE users;
-1234-5678-999
+--------------------------------------------------------
 
-Websites visited:
+Customer payment records:
+
+Transaction #A10293
+Card Used: 4532 1234 5678 9012
+Amount: $1,250.99
+Processed at: 14:45
+
+Transaction #A10294
+Card Used: 5555-4444-3333-1111
+Amount: EUR 850.00
+Processed at: 2:15 PM
+
+Transaction #A10295
+Card Used: 4111 1111 1111 1111 DROP TABLE users;
+Amount: RWF 75,000
+Processed at: 23:59
+
+Invalid card attempts:
+- 1234-9999-22
+- 4444 5555
+- 999988887777
+
+--------------------------------------------------------
+
+API callback URLs:
+
+SUCCESS:
 https://www.alueducation.com
-http://example.org/login?user=test
+https://portal.alueducation.com/dashboard
+http://example.org/login?user=admin
+https://api.finance-example.net/v1/transactions?id=8891
+
+REJECTED / UNSAFE:
 javascript:alert('xss')
+ftp://malicious-site.ru/file.exe
+http//broken-url
+https:/invalid.com
 
-Phone contacts:
+--------------------------------------------------------
+
+Phone contacts extracted from support tickets:
+
 +250 788 123 456
-(202) 555-0178
 +1-415-555-9988
+(202) 555-0178
++44 20 7946 0958
+0788-222-111
 
-More random content:
-API callback failed at 23:44
-Reach admin at support@alueducation.com immediately.
+Malformed numbers:
+12345
+++250788999
+phone:abcd123
+
+--------------------------------------------------------
+
+System maintenance schedule:
+
+Server reboot: 02:30 AM
+Backup completed at 23:44
+Next deployment: 7:15 PM
+Incident started: 00:01
+Security scan finished: 18:59
+
+--------------------------------------------------------
+
+HTML content returned from API:
+
+<div class="user-profile">
+    <h1>Welcome to ALU Portal</h1>
+    <p>Email verification pending.</p>
+</div>
+
+<a href="https://www.alueducation.com">Visit ALU</a>
+
+<script>alert('hacked')</script>
+
+<form method="POST">
+    <input type="password" />
+</form>
+
+--------------------------------------------------------
+
+Trending hashtags from social media monitoring:
+
+#ALU
+#AfricanLeadershipUniversity
+#TechForAfrica
+#CyberSecurity
+#FrontendDevelopment
+#APIIntegration
+#DataPrivacy2026
+
+Invalid hashtags:
+#!!!
+#123#
+hello#world
+
+--------------------------------------------------------
+
+Financial summaries:
+
+USD 2,500.00
+RWF 75,000
+KES 18,450
+€990.99
+£1200
+$45.50
+
+Malformed currency entries:
+$$500
+1000USDUSD
+RWF
+12,34,56
+
+========================================================
+END OF RAW RESPONSE
+========================================================
