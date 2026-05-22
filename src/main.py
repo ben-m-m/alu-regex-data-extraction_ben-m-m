@@ -9,17 +9,24 @@ phone_no_pattern = re.compile(r'(?:\+\d{1,3}[- ]?)?(?:\(?\d{2,4}\)?[- ]?)?\d{3}[
 credit_card_pattern = re.compile(r'\b(?:\d{4}[- ]?){3}\d{4}\b')
 
 def hidden_credit_card_numbers(credit_cards):
-    hidden_cards = []
     digits = re.sub(r'\D', '', credit_cards)
     if len(digits) == 16:
-        hidden_card = '**** **** **** ' + digits[-4:]
-        hidden_cards.append(hidden_card)
-    return hidden_cards[0] if hidden_cards else ""
+        return '**** **** **** ' + digits[-4:]
+    return ""
+
+def clean_url(urls):
+    avoid_texts = ["drop_table", "javascript", "<script>", "select * from", "insert into", "delete from", "update", "alter table"]
+    valid_urls = []
+    for url in urls:
+        lower_url = url.lower()
+        if not any (avoid_text.lower() in lower_url for avoid_text in avoid_texts):
+            valid_urls.append(url)
+    return valid_urls
 
 
 def extract_sensitive_info(text):
     emails = list(set(email_address_pattern.findall(text)))
-    urls = list(set(url_pattern.findall(text)))
+    urls = list(set(clean_url(url_pattern.findall(text))))
     phone_numbers = list(set(phone_no_pattern.findall(text)))
     credit_cards_lst = list(set(credit_card_pattern.findall(text)))
 
