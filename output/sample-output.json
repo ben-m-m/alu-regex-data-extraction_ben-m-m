@@ -1,38 +1,36 @@
 {
     "emails": [
-        "john.doe@alueducation.com",
         "mary_smith@alumni.alueducation.com",
-        "sam.irakoze@si.alueducation.com",
         "support.team@alueducation.com",
-        "DROP_TABLE@alueducation.com"
+        "john.doe@alueducation.com",
+        "DROP_TABLE@alueducation.com",
+        "sam.irakoze@si.alueducation.com"
     ],
     "urls": [
-        "https://www.alueducation.com",
-        "https://portal.alueducation.com/dashboard",
         "http://example.org/login?user=admin",
+        "https://portal.alueducation.com/dashboard",
         "https://api.finance-example.net/v1/transactions?id=8891",
         "https://www.alueducation.com"
     ],
     "phone_numbers": [
+        "+1-415-555-9988",
+        "0788-222-111",
+        "(202) 555-0178",
+        "234-9999",
+        "+250788999",
         "532 1234",
+        "111 1111",
+        "946 0958",
+        "333-1111",
+        "+250 788 123 456",
         "678 9012",
         "555-4444",
-        "333-1111",
-        "111 1111",
-        "111 1111",
-        "234-9999",
-        "444 5555",
         "99998888777",
-        "+250 788 123 456",
-        "+1-415-555-9988",
-        "(202) 555-0178",
-        "946 0958",
-        "0788-222-111",
-        "+250788999"
+        "444 5555"
     ],
     "credit_cards": [
-        "4532 1234 5678 9012",
-        "5555-4444-3333-1111",
-        "4111 1111 1111 1111"
+        "**** **** **** 9012",
+        "**** **** **** 1111",
+        "**** **** **** 1111"
     ]
 }
