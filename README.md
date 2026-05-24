@@ -28,11 +28,11 @@ The program extracts the following four required data types:
 
 alu-regex-data-extraction/
 ├── input/
-│   └── raw-text.txt
+│ └── raw-text.txt
 ├── src/
-│   └── main.py
+│ └── main.py
 ├── output/
-│   └── sample-output.json
+│ └── sample-output.json
 └── README.md
 
 
