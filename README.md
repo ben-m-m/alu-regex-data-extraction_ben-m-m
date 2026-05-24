@@ -25,7 +25,7 @@ The program extracts the following four required data types:
 ---
 
 ## Project Structure
-
+```
 alu-regex-data-extraction/
 ├── input/
 │ └── raw-text.txt
@@ -34,7 +34,7 @@ alu-regex-data-extraction/
 ├── output/
 │ └── sample-output.json
 └── README.md
-
+```
 
 ---
 
